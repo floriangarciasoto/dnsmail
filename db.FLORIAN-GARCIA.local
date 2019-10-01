@@ -1,0 +1,13 @@
+$TTL	604800
+@	IN	SOA	florian-garcia.local. root.florian-garcia.local. (
+			      6		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	server.florian-garcia.local.
+server	IN	A	10.203.7.32
+smtp	IN	A	10.203.7.132
+pop	IN	A	10.203.7.133
+imap	IN	A	10.203.7.134
